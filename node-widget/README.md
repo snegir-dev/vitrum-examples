@@ -18,9 +18,9 @@ From this directory:
 npm start
 ```
 
-The standard Vitrum workspace layout discovers Engine at `../../engine`. For a
-standalone checkout, point the prototype at an explicit compatible Engine
-repository:
+The standard Vitrum checkout layout discovers Engine at
+`../../vitrum-engine`. For a standalone checkout, point the prototype at an
+explicit compatible Engine repository:
 
 ```powershell
 $env:VITRUM_ENGINE_DIR = "D:\path\to\vitrum-engine"

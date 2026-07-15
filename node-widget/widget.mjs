@@ -14,8 +14,10 @@ const FRAME_VERSION = 1;
 const BGRA8_PREMULTIPLIED_SRGB = 1;
 const PNG_SIGNATURE = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
 const here = dirname(fileURLToPath(import.meta.url));
-const workspaceRoot = resolve(here, "..", "..");
-const engineRoot = resolve(process.env.VITRUM_ENGINE_DIR ?? resolve(workspaceRoot, "engine"));
+const checkoutRoot = resolve(here, "..", "..");
+const engineRoot = resolve(
+  process.env.VITRUM_ENGINE_DIR ?? resolve(checkoutRoot, "vitrum-engine"),
+);
 const outputDirectory = resolve(here, "out");
 
 const crcTable = new Uint32Array(256);

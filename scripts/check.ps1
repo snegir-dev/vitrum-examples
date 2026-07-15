@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 $RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 if ([string]::IsNullOrWhiteSpace($env:VITRUM_ENGINE_DIR)) {
-    $env:VITRUM_ENGINE_DIR = (Resolve-Path (Join-Path $RepoRoot "..\engine")).Path
+    $env:VITRUM_ENGINE_DIR = (Resolve-Path (Join-Path $RepoRoot "..\vitrum-engine")).Path
 }
 else {
     $env:VITRUM_ENGINE_DIR = (Resolve-Path -LiteralPath $env:VITRUM_ENGINE_DIR).Path

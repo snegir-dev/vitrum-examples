@@ -1,4 +1,6 @@
-# Vitrum examples
+# Vitrum Examples
+
+Canonical repository name: `vitrum-examples`.
 
 This repository owns sample widgets and host integrations. Supported examples
 will consume released public SDKs; they must not become a second engine or
