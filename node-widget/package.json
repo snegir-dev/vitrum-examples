@@ -1,0 +1,13 @@
+{
+  "name": "@vitrum/example-node-widget",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node ./widget.mjs",
+    "test": "node --test ./widget.test.mjs"
+  }
+}
