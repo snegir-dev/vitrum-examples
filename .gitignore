@@ -1,5 +1,6 @@
 /.idea/
 /.vscode/
+/graphify-out/
 **/node_modules/
 **/out/
 *.tmp
